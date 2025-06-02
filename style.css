@@ -20,7 +20,7 @@ body {
   
 
   /* what does this guy below do??? */
-  margin: 0 auto;
+  margin: 0;
 }
 
 /* nav */
@@ -97,6 +97,8 @@ font-size: 18px;
 }
 
 @media(min-width: 1024px){
+    
+       
     nav ul{
         display: flex;
         align-items: center;
@@ -140,18 +142,19 @@ font-size: 18px;
         flex-direction: row-reverse;
         max-height: 100%;
         align-items: center;
+        margin: 0;
     }
 
     #section-1{
         /* border: 3px solid; */
-        padding: 0.5rem 2rem 200rem 0;
+        padding: 0.5rem 2rem 0 0;
         width: 45%;
         margin-right: 6rem;
-        justify-items: right;
+        justify-items: center;
     }
 
     #section-1 img{
-        width: 80%;
+        width: 70%;
     }
 
     .section-2{
