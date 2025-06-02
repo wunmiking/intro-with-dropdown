@@ -14,7 +14,7 @@
 
 body {
   font-family: "Epilogue", sans-serif;
-  border: 3px solid green;
+  /* border: 3px solid green; */
   max-width: 1540px;
 
   /* what does this guy below do??? */
@@ -61,6 +61,36 @@ p{
     color: var(--medium-gray);
     text-align: center;
     line-height: 1.5;
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
+
+#section-2-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#section-2-btn-wrapper > button{
+background-color: var(--almost-black);
+color: var(--almost-white);
+padding: 15px 25px;
+font-weight: 700;
+border: none;
+border-radius: 15px;
+font-size: 18px;
+}
+
+#section-2-img-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 45px 0;
+    gap: 10px;
+}
+
+#section-2-img-wrapper img{
+    max-width: 100%;
+    width: 20%;
+    height: 20%;
+}
+
