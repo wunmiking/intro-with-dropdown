@@ -148,7 +148,8 @@ font-size: 18px;
     #section-1{
         /* border: 3px solid; */
         padding: 0.5rem 2rem 0 0;
-        width: 45%;
+        /* width: 45%; */
+        flex: 1;
         margin-right: 6rem;
         justify-items: center;
     }
@@ -158,7 +159,8 @@ font-size: 18px;
     }
 
     .section-2{
-        width: 50%;
+        flex: 1;
+        /* width: 50%; */
         align-self: self-start;
         justify-items: left;
         padding-left: 7rem;
@@ -182,8 +184,5 @@ font-size: 18px;
         justify-content: left;
         padding-bottom: 50px;
     }
-
-
-
 
 }
