@@ -142,13 +142,14 @@ font-size: 18px;
         flex-direction: row-reverse;
         max-height: 100%;
         align-items: center;
-        margin: 0;
+        margin: 0 auto;
     }
 
     #section-1{
         /* border: 3px solid; */
         padding: 0.5rem 2rem 0 0;
         /* width: 45%; */
+       /* the below command line is to give the box the same sizing as section 2 class */
         flex: 1;
         margin-right: 6rem;
         justify-items: center;
@@ -165,6 +166,7 @@ font-size: 18px;
         justify-items: left;
         padding-left: 7rem;
         padding-top: 5rem;
+        /* justify-content: space-between; */
         
     }
 
